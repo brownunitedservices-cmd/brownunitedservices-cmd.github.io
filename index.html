@@ -1,89 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Breaking Code Studio | Audio Dramas &amp; Digital Resources</title>
-  <meta name="description" content="Breaking Code Studio: faith-rooted audio drama series and structured digital product resources.">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2648750530662314"
-     crossorigin="anonymous"></script>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      background: #0D0D1A;
-      color: #ECECF4;
-      line-height: 1.7;
-    }
-    header {
-      background: linear-gradient(135deg, #3D3B8E 0%, #0D0D1A 70%);
-      border-bottom: 3px solid #0ABFBC;
-      padding: 2.5rem 1.5rem;
-      text-align: center;
-    }
-    header h1 { color: #F4C542; font-size: 2.5rem; letter-spacing: 1px; }
-    .tagline { color: #0ABFBC; font-size: 1.15rem; margin-top: 0.5rem; }
-    main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
-    section { margin-bottom: 2.5rem; }
-    section h2 { color: #0ABFBC; border-left: 4px solid #E91E8C; padding-left: 0.75rem; margin-bottom: 1rem; }
-    section p { color: #C9C9DE; margin-bottom: 1rem; }
-    .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
-    .card { background: #16162A; border: 1px solid #3D3B8E; border-radius: 12px; padding: 1.5rem; }
-    .card h3 { color: #F4C542; margin-bottom: 0.5rem; }
-    .card a {
-      display: inline-block;
-      margin-top: 0.75rem;
-      background: #0ABFBC;
-      color: #0D0D1A;
-      font-weight: 700;
-      text-decoration: none;
-      padding: 0.6rem 1.25rem;
-      border-radius: 8px;
-    }
-    .card a:hover { background: #E91E8C; color: #ffffff; }
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      color: #8A8AA3;
-      border-top: 1px solid #3D3B8E;
-      font-size: 0.9rem;
-    }
-    @media (max-width: 640px) { .card-grid { grid-template-columns: 1fr; } }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breaking Code Studio — Original Audio Drama & Creative Income Resources</title>
+<meta name="description" content="Breaking Code Studio produces His Billion Dollar Betrayal, an original audio drama series, and creates structured digital resources for women building creative income with Canva.">
+<style>
+:root{--teal:#0ABFBC;--fuchsia:#E91E8C;--indigo:#3D3B8E;--gold:#F4C542;--dark:#0D0D1A;--light:#F8F9FA;--gray:#6C757D}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--light);color:#222;line-height:1.7}
+header{background:var(--dark);color:#fff;padding:1rem 2rem;position:sticky;top:0;z-index:100}
+nav{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.4rem;font-weight:700}.logo span{color:var(--teal)}
+.nav-links{display:flex;gap:1.5rem;list-style:none}
+.nav-links a{color:#fff;text-decoration:none;font-size:.95rem}
+.nav-links a:hover{color:var(--teal)}
+.hero{background:linear-gradient(135deg,var(--dark) 0%,var(--indigo) 100%);color:#fff;padding:4rem 2rem;text-align:center}
+.hero h1{font-size:2.4rem;margin-bottom:1rem;line-height:1.3}
+.hero h1 em{color:var(--teal);font-style:normal}
+.hero p{font-size:1.15rem;max-width:700px;margin:0 auto 2rem;opacity:.92}
+.tagline{display:inline-block;background:rgba(10,191,188,.15);border:1px solid var(--teal);color:var(--teal);padding:.4rem 1.2rem;border-radius:2rem;font-size:.9rem;margin-bottom:1.5rem;letter-spacing:.5px}
+.btn{display:inline-block;padding:.8rem 2rem;border-radius:.4rem;text-decoration:none;font-weight:600;margin:.3rem;transition:transform .15s}
+.btn-teal{background:var(--teal);color:#fff}
+.btn-outline{border:2px solid #fff;color:#fff}
+.btn:hover{transform:translateY(-2px)}
+section{max-width:1000px;margin:0 auto;padding:3.5rem 2rem}
+h2{font-size:1.9rem;color:var(--indigo);margin-bottom:1.2rem}
+h3{font-size:1.25rem;color:var(--dark);margin:1.5rem 0 .6rem}
+p{margin-bottom:1rem}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:1.5rem}
+@media(max-width:700px){.two-col{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:.6rem;padding:1.8rem;box-shadow:0 2px 12px rgba(0,0,0,.07);margin-bottom:1.5rem}
+.card h3{margin-top:0;color:var(--indigo)}
+.badge{display:inline-block;font-size:.75rem;font-weight:700;padding:.25rem .7rem;border-radius:1rem;margin-bottom:.6rem}
+.badge-live{background:#d4edda;color:#155724}
+.badge-soon{background:#fff3cd;color:#856404}
+.episode{border-left:3px solid var(--teal);padding:.6rem 1rem;margin-bottom:.8rem;background:#fff}
+.episode strong{color:var(--indigo)}
+.faq-item{margin-bottom:1.2rem}
+.faq-item strong{color:var(--indigo);display:block;margin-bottom:.3rem}
+footer{background:var(--dark);color:#ccc;padding:2.5rem 2rem;text-align:center;font-size:.9rem}
+footer a{color:var(--teal);text-decoration:none;margin:0 .6rem}
+footer p{margin-bottom:.5rem}
+.cta-band{background:var(--indigo);color:#fff;text-align:center;padding:3rem 2rem}
+.cta-band h2{color:#fff}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Breaking Code Studio</h1>
-    <p class="tagline">Structured. Faith-rooted. Income-ready.</p>
-  </header>
-  <main>
-    <section>
-      <h2>Original Audio Drama: His Billion Dollar Betrayal</h2>
-      <p>Breaking Code Studio produces <em>His Billion Dollar Betrayal</em>, an original audio drama series available now in six complete episodes. The series blends high-stakes storytelling with faith-rooted themes of integrity, redemption, and purpose &mdash; crafted for listeners who want drama with depth.</p>
-      <p>Every episode is written, voiced, and produced in-house, and streams free on our drama site.</p>
-    </section>
-    <section>
-      <h2>Digital Product Resources</h2>
-      <p>Alongside our audio dramas, Breaking Code Studio creates structured digital resources for creators and storytellers &mdash; practical tools built to help you plan, organize, and grow your own creative projects with a clear, step-by-step approach.</p>
-    </section>
-    <section>
-      <h2>Explore</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>Drama Site</h3>
-          <p>Stream all six episodes of <em>His Billion Dollar Betrayal</em> and browse our audio drama collection.</p>
-          <a href="https://brownunitedservices-cmd.github.io/drama-site/">Visit the Drama Site</a>
-        </div>
-        <div class="card">
-          <h3>Breaking Code Studio</h3>
-          <p>Discover our studio hub, digital products, and creative resources.</p>
-          <a href="https://brownunitedservices-cmd.github.io/breaking-code-studio/">Visit the Studio</a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    &copy; 2026 Breaking Code Studio. All rights reserved.
-  </footer>
+<header>
+<nav>
+<div class="logo">Breaking Code <span>Studio</span></div>
+<ul class="nav-links">
+<li><a href="#drama">Audio Drama</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<div class="hero">
+<div class="tagline">Structured. Faith-rooted. Income-ready.</div>
+<h1>Original audio drama <em>&amp;</em> creative income resources for women who build</h1>
+<p>Breaking Code Studio is an independent creative studio producing <strong>His Billion Dollar Betrayal</strong> — an original short-form audio drama — alongside structured digital resources that help women turn creativity into income with Canva.</p>
+<a class="btn btn-teal" href="https://brownunitedservices-cmd.github.io/drama-site/">Listen to the Drama</a>
+<a class="btn btn-outline" href="https://brownunitedservices-cmd.github.io/breaking-code-studio/">Explore the Studio</a>
+</div>
+<section id="drama">
+<h2>Original Audio Drama: His Billion Dollar Betrayal</h2>
+<p>Breaking Code Studio writes, voices, and produces <strong>His Billion Dollar Betrayal</strong>, an original audio drama series blending high-stakes storytelling with faith-rooted themes of integrity, redemption, and purpose. Each episode runs approximately two minutes — designed to be binge-worthy, emotionally charged, and impossible to stop listening to.</p>
+<p>The story follows a woman navigating power, secrets, and betrayal in a world where nothing is as it seems — crafted for listeners who want drama with depth.</p>
+<h3>Episodes</h3>
+<span class="badge badge-live">6 episodes streaming now</span> <span class="badge badge-soon">Episodes 7–10 coming soon</span>
+<div class="episode"><strong>Episode 1 — The Contract:</strong> I married him at midnight… and by sunrise, I found out I was already replaced.</div>
+<div class="episode"><strong>Episode 2 — The Sealed Door:</strong> The door was locked. Not just locked — sealed. Like the penthouse itself knew I didn't belong outside.</div>
+<div class="episode"><strong>Episode 3 — The Other Name:</strong> My name isn't mine. That's the first thing my brain refuses to accept.</div>
+<div class="episode"><strong>Episode 4 — The Photo:</strong> Members only. Some pictures change everything.</div>
+<div class="episode"><strong>Episode 5 — Don't Let Him Touch You:</strong> Members only. A warning comes too late.</div>
+<div class="episode"><strong>Episode 6 — The Reset:</strong> Members only. Everything starts over.</div>
+<div class="episode"><strong>Episodes 7–10:</strong> Coming soon. The story continues.</div>
+<p>Episodes 1–3 are free to stream. Episodes 4–6 unlock with a Standard pass or above. <a href="https://brownunitedservices-cmd.github.io/drama-site/" style="color:var(--fuchsia);font-weight:600;">Visit the drama site to listen →</a></p>
+</section>
+<section id="resources" style="background:#fff;">
+<div style="max-width:1000px;margin:0 auto;">
+<h2>Digital Product Resources</h2>
+<p>Alongside our audio dramas, Breaking Code Studio creates structured digital resources for creators — practical tools built to help you plan, organize, and grow your creative projects with a clear, step-by-step approach.</p>
+<div class="two-col">
+<div class="card">
+<h3>Creative Income Prescription</h3>
+<p>Our free starter guide: a structured prescription for building digital income with Canva. Clarity, structure, and direction — no fluff, no overwhelm, just a clear path forward.</p>
+</div>
+<div class="card">
+<h3>Canva Element Code Volumes</h3>
+<p>Organized collections of Canva element search codes — curated, categorized, and verified so you spend less time searching and more time creating.</p>
+</div>
+</div>
+<div class="card">
+<h3>Canva Therapy — Learn by Doing</h3>
+<p><strong>CT Scans:</strong> Small, focused tutorials that diagnose a specific design challenge.<br>
+<strong>Therapy Sessions:</strong> In-depth classes and group workshops for hands-on learning.<br>
+<strong>BC Codes:</strong> Canva element codes written as design "prescriptions" — find exactly the right graphic, fast.</p>
+</div>
+<p><a href="https://brownunitedservices-cmd.github.io/breaking-code-studio/" style="color:var(--fuchsia);font-weight:600;">Explore the full studio hub →</a></p>
+</div>
+</section>
+<section id="about">
+<h2>About the Studio</h2>
+<p>Breaking Code Studio was founded on a simple belief: most women don't fail at creative work because they lack talent — they fail because they lack a system. The studio exists to provide that system, whether through binge-worthy audio storytelling or structured digital education.</p>
+<p>Every drama episode is written, voiced, and produced in-house. Every digital resource is built from real workflows and tested approaches — not theory. The studio operates on a calm-authority philosophy: encouraging, structured, and faith-rooted in everything it creates.</p>
+<h3>What we make</h3>
+<p><strong>Entertainment:</strong> Original short-form audio drama series, starting with <em>His Billion Dollar Betrayal</em> (10 episodes planned, 6 streaming now).<br>
+<strong>Education:</strong> Digital products, tutorials, and workshops for women building creative income with Canva.<br>
+<strong>Community:</strong> A growing audience of women who want both great stories and practical tools for financial independence.</p>
+</section>
+<section id="faq" style="background:#fff;">
+<div style="max-width:1000px;margin:0 auto;">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item"><strong>Is the audio drama free?</strong>Episodes 1–3 of His Billion Dollar Betrayal are free to stream. Episodes 4–6 require a Standard pass or above. Episodes 7–10 are coming soon.</div>
+<div class="faq-item"><strong>How long is each episode?</strong>Each episode runs approximately two minutes — short-form storytelling designed for binge listening.</div>
+<div class="faq-item"><strong>What is Canva Therapy?</strong>Canva Therapy is our hands-on learning approach: CT Scans (focused tutorials), Therapy Sessions (in-depth classes), and BC Codes (curated Canva element search codes).</div>
+<div class="faq-item"><strong>Do I need Canva Pro to use your resources?</strong>No. Our resources work with free Canva, and each element code notes whether the graphic is free or requires Canva Pro.</div>
+<div class="faq-item"><strong>How do I access paid content?</strong>Through one-time access passes available on our Payhip store. No subscriptions — pay once, keep access.</div>
+</div>
+</section>
+<div class="cta-band" id="contact">
+<h2>Get in touch</h2>
+<p style="max-width:600px;margin:0 auto 1.5rem;">Questions about the drama, the resources, or the studio? Reach out — we read everything.</p>
+<p>Email: <a href="mailto:theofficialbreakingcode@gmail.com" style="color:var(--gold);font-weight:600;">theofficialbreakingcode@gmail.com</a></p>
+</div>
+<footer>
+<p><a href="https://brownunitedservices-cmd.github.io/drama-site/">Drama Site</a> · <a href="https://brownunitedservices-cmd.github.io/breaking-code-studio/">Studio Hub</a> · <a href="https://brownunitedservices-cmd.github.io/breaking-code-studio/privacy-policy.html">Privacy Policy</a></p>
+<p>© 2026 Breaking Code Studio. All rights reserved.</p>
+<p style="font-size:.8rem;opacity:.7;">Structured. Faith-rooted. Income-ready.</p>
+</footer>
 </body>
 </html>
